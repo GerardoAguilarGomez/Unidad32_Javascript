@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <script type="text/javascript" src="js/codigo.js"></script>
+        <title>
+           Ejercicio 11
+        </title>
+    </head>
+    <body>
+<table style="background-color: rgb(243, 243, 192);padding: 10px;">
+    <tr>
+        <td colspan="5" align="right"><input type="text" value="0" id="resultado" style="text-align: right;background-color: yellowgreen;"></td>
+    </tr>
+    <tr align="center">
+        
+        <td><input type="button" value="7" onclick="anadir(7);"></td>
+        <td><input type="button" value="8" onclick="anadir(8);"></td>
+        <td><input type="button" value="9" onclick="anadir(9);"></td>
+        <td><input type="button" value="/" onclick="operacion(1);"></td>
+        <td align="center" rowspan="4"><input type="button" style="height: 100%;" value="=" onclick="calcular();"></td>
+    </tr>
+    <tr align="center">
+        <td><input type="button" value="4" onclick="anadir(4);"></td>
+        <td><input type="button" value="5" onclick="anadir(5);"></td>
+        <td><input type="button" value="6" onclick="anadir(6);"></td>
+        <td><input type="button" value="*" onclick="operacion(3);"></td>
+    </tr>
+    <tr align="center">
+        <td><input type="button" value="1" onclick="anadir(1);"></td>
+        <td><input type="button" value="2" onclick="anadir(2);"></td>
+        <td><input type="button" value="3" onclick="anadir(3);"></td>
+        <td><input type="button" value="-" onclick="operacion(2);"></td>
+    </tr>
+    <tr align="center">
+        <td><input type="button" value="0" onclick="anadir(0);"></td>
+        <td><input type="button" value="." onclick="coma();"></td>
+        <td></td>
+        <td><input type="button" value="+" onclick="operacion(1);"></td>
+    </tr>
+</table>
+    </body>
+</html>
